@@ -1,4 +1,4 @@
-Timers ![Build status badge](https://github.com/microsoft/arcade-timers/workflows/MakeCode/badge.svg)
+# Timers ![Build status badge](https://github.com/microsoft/arcade-timers/workflows/MakeCode/badge.svg)
 
 ## Usage
 
