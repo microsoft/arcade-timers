@@ -1,4 +1,8 @@
-# MakeCode Arcade Timers ![Build status badge](https://github.com/microsoft/arcade-control-flow/workflows/MakeCode/badge.svg)
+# MakeCode Arcade Timers ![Build status badge](https://github.com/microsoft/arcade-timers/workflows/MakeCode/badge.svg)
+
+## Usage
+
+This extension adds helper functions for debouncing, throttling, delaying and running code in the background.
 
 ## Use this extension
 
@@ -22,7 +26,7 @@ To edit this repository in MakeCode.
 This image shows the blocks code from the last commit in master.
 This image may take a few minutes to refresh.
 
-![A rendered view of the blocks](https://github.com/microsoft/arcade-control-flow/raw/master/.makecode/blocks.png)
+![A rendered view of the blocks](https://github.com/microsoft/arcade-timers/raw/master/.makecode/blocks.png)
 
 ## Supported targets
 
