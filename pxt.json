@@ -1,6 +1,6 @@
 {
     "name": "Timers",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Timers and executation control.",
     "dependencies": {
         "device": "*"
