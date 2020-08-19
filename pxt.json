@@ -1,17 +1,24 @@
 {
     "name": "Timers",
+    "version": "1.0.0",
+    "description": "Timers and executation control.",
     "dependencies": {
         "device": "*"
     },
-    "description": "Timers and executation control.",
     "files": [
         "main.ts",
         "README.md",
         "timers.ts"
     ],
-    "preferredEditor": "tsprj",
     "testFiles": [
         "test.ts"
     ],
-    "version": "1.0.0"
+    "targetVersions": {
+        "target": "1.0.16",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
 }
