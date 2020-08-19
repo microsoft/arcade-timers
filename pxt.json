@@ -7,7 +7,7 @@
     "files": [
         "main.ts",
         "README.md",
-        "control-flow.ts"
+        "timers.ts"
     ],
     "preferredEditor": "tsprj",
     "testFiles": [
