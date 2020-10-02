@@ -55,9 +55,9 @@ namespace timer {
     //% %time=timePicker ms"
     export function throttle(key: string, time: number, thenDo: () => void) {
         if (!throttleTimeouts[key]) {
+            thenDo();
             throttleTimeouts[key] = setTimeout(() => {
                 throttleTimeouts[key] = null;
-                thenDo();
             }, time)
         }
     }
