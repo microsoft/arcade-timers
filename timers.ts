@@ -21,7 +21,7 @@ namespace timer {
     //% block="separately do"
     //% handlerStatement=1
     export function background(then: () => void) {
-        control.runInBackground(then)
+        control.runInParallel(then)
     }
 
     let decounceTimeouts: {[key: string]: number} = {}
