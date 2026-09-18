@@ -14,6 +14,29 @@ namespace timer {
     }
 
     /**
+ * Same functionality as the after block, however this returns
+ * an ID which can be cancelled using the cancel block.
+ */
+    //% block="after $time do"
+    //% time.defl=500
+    //% handlerStatement=1
+    //% %time=timePicker ms"
+    export function afterID(time: number, thenDo: () => void): number {
+        let id: number = setTimeout(thenDo, time)
+        return id
+    }
+
+    /**
+     * Cancels the code scheduled to run in the after block (referenced by
+     * the blocks id).
+     */
+    //% block="cancel function: $id"
+    export function cancel(id: number)
+    {
+        clearTimeout(id)
+    }
+    
+    /**
      * Run the attached code seperately from other code.
      * This creates a seperate context for "pause" so that pauses
      * within or without this code are seperated.
